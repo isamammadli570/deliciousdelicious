@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+}
+html {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: var(--body_background);
+  color: var(--body_color);
+}
+:root {
+  --body_background: white;
+  --body_color: black;
+  --link_color: navy;
+  --body_background_input: rgb(35, 35, 35);
+  --body_color_input: white;
+}
+[data-theme="dark"] {
+  --body_background: #151617;
+  --body_background_input: white;
+  --body_color_input: black;
+  --body_color: white;
+  --link_color: cyan;
+}

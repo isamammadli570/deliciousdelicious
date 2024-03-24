@@ -1,0 +1,22 @@
+.searchbar {
+  display: flex;
+  justify-content: center;
+  background-color: var(--body_background);
+}
+.searchbar input {
+  width: 400px;
+  background-color: var(--body_background_input);
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  color: var(--body_color_input);
+}
+.searchbar input:focus {
+  animation: rotateShadow 2s infinite linear;
+}
+@media (max-width: 768px) {
+  .searchbar input {
+    width: 200px;
+  }
+}

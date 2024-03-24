@@ -1,0 +1,32 @@
+.list img {
+  width: 500px;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+.list .p {
+  display: flex;
+}
+p {
+  padding-left: 8px;
+}
+.list {
+  display: flex;
+  margin-left: 4rem;
+  margin-top: 3rem;
+}
+.list .ing {
+  margin-left: 10rem;
+  margin-top: 2.3rem;
+}
+.details {
+  background-color: var(--body_background);
+  color: var(--body_color);
+}
+@media (max-width: 768px) {
+  .list {
+    display: block;
+  }
+  .list .ing {
+    margin-left: 0;
+  }
+}

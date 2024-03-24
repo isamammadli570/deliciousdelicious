@@ -1,0 +1,43 @@
+.responsive {
+  border: 1px solid;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: var(--body_background);
+  z-index: 1;
+}
+.responsive {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.responsive ul li {
+  padding: 1rem;
+  list-style-type: none;
+}
+.responsive ul li a {
+  text-decoration: none;
+  font-size: 2.5rem;
+  color: var(--body_color);
+}
+.responsive .close {
+  width: 2em;
+  height: 2em;
+  border: none;
+  background: rgba(137, 196, 199, 0.514);
+  border-radius: 5px;
+  transition: background 0.5s;
+  cursor: pointer;
+  position: absolute;
+  margin-bottom: 35rem;
+  margin-left: 30rem;
+}
+.responsive .close:hover {
+  background-color: rgba(33, 43, 31, 0.11);
+}

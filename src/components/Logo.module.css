@@ -1,0 +1,23 @@
+.logo {
+  display: flex;
+  align-items: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.logo img {
+  width: 150px;
+}
+.logo h1 {
+  color: var(--body_color);
+}
+@media (max-width: 768px) {
+  .logo img {
+    width: 120px;
+  }
+  .logo {
+    justify-content: center;
+  }
+  .logo {
+    margin-right: 9.7rem;
+  }
+}

@@ -1,0 +1,29 @@
+.meals {
+  padding: 1.5rem;
+  text-align: center;
+}
+.meals p {
+  color: var(--body_color);
+
+  text-decoration: none;
+}
+.meals img {
+  width: 300px;
+  border-radius: 1rem;
+  border: 1px solid;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: var(--body_background);
+}
+@media (max-width: 768px) {
+  .meals img {
+    width: 400px;
+  }
+  .meals {
+    padding: 1rem;
+    text-align: center;
+  }
+}

@@ -1,0 +1,13 @@
+.options {
+  text-align: center;
+  padding-top: 1rem;
+  background-color: var(--body_background);
+}
+.options select {
+  padding: 0.2rem;
+  border-radius: 8px;
+  width: 80px;
+  cursor: pointer;
+  margin-left: 0.3rem;
+  border: 1px solid #1a1a1a;
+}

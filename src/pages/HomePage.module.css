@@ -1,0 +1,28 @@
+.homepage img {
+  border-radius: 1rem;
+  width: 300px;
+}
+.homepage .list {
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid rgb(91, 91, 91);
+}
+.homepage h2 {
+  text-align: center;
+}
+.homepage .popular {
+  padding: 1rem;
+}
+.homepage {
+  background-color: var(--body_background);
+  color: var(--body_color);
+}
+@media (max-width: 768px) {
+  .homepage .popular img {
+    width: 400px;
+  }
+  .homepage .list {
+    display: block;
+    text-align: center;
+  }
+}
