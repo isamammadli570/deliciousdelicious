@@ -12,7 +12,7 @@
 }
 @media (max-width: 768px) {
   .logo img {
-    width: 120px;
+    width: 100px;
   }
   .logo {
     justify-content: center;

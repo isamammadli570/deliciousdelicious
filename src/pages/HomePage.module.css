@@ -19,7 +19,7 @@
 }
 @media (max-width: 768px) {
   .homepage .popular img {
-    width: 400px;
+    width: 350px;
   }
   .homepage .list {
     display: block;
