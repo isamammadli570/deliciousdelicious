@@ -29,4 +29,7 @@ p {
   .list .ing {
     margin-left: 0;
   }
+  .list img{
+    width: 350px;
+  }
 }

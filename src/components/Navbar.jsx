@@ -28,8 +28,8 @@ function Navbar({ openSidebar }) {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/contact">
-              <FontAwesomeIcon icon={faIdBadge} /> Contact
+            <NavLink to="/login">
+              <FontAwesomeIcon icon={faIdBadge} /> Login
             </NavLink>
           </li>
           <DarkMode />
