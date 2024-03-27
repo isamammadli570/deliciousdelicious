@@ -25,6 +25,8 @@ p {
 @media (max-width: 768px) {
   .list {
     display: block;
+    margin: 0;
+    margin-left: 1rem;
   }
   .list .ing {
     margin-left: 0;
