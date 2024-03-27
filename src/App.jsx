@@ -33,7 +33,7 @@ function App() {
           element={<Cocktails isShow={isShow} openSidebar={openSidebar} />}
         />
 
-        <Route path="login" element={<Login />} />
+        <Route path="login" element={<Login isShow={isShow} openSidebar={openSidebar} />} />
       </Routes>
     </BrowserRouter>
   );

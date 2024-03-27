@@ -12,7 +12,10 @@ import DarkMode from "./DarkMode";
 function ResponsiveSidebar({ openSidebar }) {
   return (
     <>
+
       <div className={styles.responsive}>
+      <h1>Delicieux</h1>
+
         <button className={styles.close} onClick={openSidebar}>
           <FaTimes />
         </button>
@@ -28,8 +31,8 @@ function ResponsiveSidebar({ openSidebar }) {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/contact">
-              <FontAwesomeIcon icon={faIdBadge} /> Contact
+            <NavLink to="/login">
+              <FontAwesomeIcon icon={faIdBadge} /> Login
             </NavLink>
           </li>
           <DarkMode />

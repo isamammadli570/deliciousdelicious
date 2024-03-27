@@ -1,11 +1,19 @@
+/* eslint-disable react/prop-types */
 import Navbar from "../components/Navbar";
+import ResponsiveSidebar from "../components/ResponsiveSidebar";
 import styles from "./Login.module.css";
-function Contact() {
+function Contact({ isShow, openSidebar }) {
   return (
     <>
-      <Navbar />
+      <div>
+        {isShow ? (
+          <ResponsiveSidebar openSidebar={openSidebar} />
+        ) : (
+          <Navbar openSidebar={openSidebar} />
+        )}
+      </div>
 
-      <div className={styles.umumi}>
+      <div className={styles.main}>
         <form className={styles.form} action="">
           <p className={styles.heading}>Login</p>
           <div className={styles.field}>
@@ -53,7 +61,9 @@ function Contact() {
           <button className={styles.button3}>Forgot Password</button>
         </form>
       </div>
-      <h2 style={{textAlign:"center", marginTop:"1rem"}}>This page is not working(!)</h2>
+      <h2 style={{ textAlign: "center", marginTop: "1rem" }}>
+        This page is not working(!)
+      </h2>
     </>
   );
 }
