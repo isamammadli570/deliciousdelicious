@@ -20,17 +20,17 @@ function ResponsiveSidebar({ openSidebar }) {
           <FaTimes />
         </button>
         <ul>
-          <li>
+          <li onClick={openSidebar}>
             <NavLink to="/meals">
               <FontAwesomeIcon icon={faUtensils} /> Meals
             </NavLink>
           </li>
-          <li>
+          <li onClick={openSidebar}>
             <NavLink to="/cocktails">
               <FontAwesomeIcon icon={faMartiniGlassCitrus} /> Cocktails
             </NavLink>
           </li>
-          <li>
+          <li onClick={openSidebar}>
             <NavLink to="/login">
               <FontAwesomeIcon icon={faIdBadge} /> Login
             </NavLink>
