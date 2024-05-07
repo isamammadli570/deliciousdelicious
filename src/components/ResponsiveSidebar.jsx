@@ -15,7 +15,6 @@ function ResponsiveSidebar({ openSidebar }) {
 
       <div className={styles.responsive}>
       
-      <h1>Delicieux</h1>
       
 
         <button className={styles.close} onClick={openSidebar}>
