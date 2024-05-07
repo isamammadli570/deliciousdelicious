@@ -8,13 +8,13 @@ import { faUtensils } from "@fortawesome/free-solid-svg-icons";
 import { faMartiniGlassCitrus } from "@fortawesome/free-solid-svg-icons";
 import { faIdBadge } from "@fortawesome/free-solid-svg-icons";
 import DarkMode from "./DarkMode";
+import Logo from "./Logo";
 
 function ResponsiveSidebar({ openSidebar }) {
   return (
     <>
-
       <div className={styles.responsive}>
-      {/* <h1>Delicieux</h1> */}
+        <Logo />
 
         <button className={styles.close} onClick={openSidebar}>
           <FaTimes />

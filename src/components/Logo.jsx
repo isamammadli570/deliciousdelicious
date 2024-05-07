@@ -4,7 +4,7 @@ function Logo() {
   return (
     <div className={styles.logo}>
       <NavLink style={{ textDecoration: "none" }} to="/">
-        <img style={{ width: "150px" }} src="./images/délicieux.png" alt="" />
+        <img style={{ width: "70px" }} src="./images/délicieux.png" alt="" />
       </NavLink>
       <NavLink style={{ textDecoration: "none" }} to="/">
         <h1>Délicieux</h1>

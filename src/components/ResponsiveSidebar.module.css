@@ -12,14 +12,19 @@
   left: 0;
   height: 100%;
   width: 100%;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
+  text-align: center;
+  padding: 5rem;
 }
-
+.responsive ul{
+  padding: 6rem;
+}
 .responsive ul li {
   padding: 1rem;
   list-style-type: none;
+
 }
 .responsive ul li a {
   text-decoration: none;
@@ -30,14 +35,10 @@
   width: 2em;
   height: 2em;
   border: none;
-  background: rgba(199, 137, 137, 0.514);
   border-radius: 5px;
   transition: background 0.5s;
   cursor: pointer;
   position: absolute;
-  margin-bottom: 35rem;
   margin-left: 13rem;
 }
-.responsive .close:hover {
-  background-color: rgba(255, 0, 0, 0.11);
-}
+
